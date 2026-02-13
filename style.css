@@ -135,3 +135,46 @@ th {
     justify-content: center;
     margin: 20px 0;
 }
+form {
+    width: 50%;
+    margin: 0 auto 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #003366;
+}
+
+button {
+    background-color: #0055aa;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003366;
+}
+<div class="social">
+    <a href="https://facebook.com" target="_blank">Facebook</a> |
+    <a href="https://instagram.com" target="_blank">Instagram</a> |
+    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+</div>
+.social {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}

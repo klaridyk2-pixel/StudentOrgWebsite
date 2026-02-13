@@ -118,3 +118,20 @@ th {
     background-color: #0055aa;
     color: white;
 }
+.project {
+    text-align: center;
+    margin: 10px;
+}
+
+.project img {
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid #003366;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+}
